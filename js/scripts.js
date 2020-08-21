@@ -53,13 +53,6 @@
 //     $("#returnNumber").show();
 //   })
 // });
-function isInt(input) {
-  if (parseInt(input) === input) {
-    return true;
-  } else {
-    return false;
-  }
-}
 
 function ranger(userNumber) {
   let outputArray = [];
@@ -88,17 +81,12 @@ function replacer(arrayRange) {
   $(document).ready(function() {
     $("#number").submit(function(event) {
       event.preventDefault();
-
-      if (typeof parseInt($("#inputNum").val()) != "number") {
-        alert("numbers only, please!");
-      }
   
       const userNumber = parseInt($("#inputNum").val());
   
       // let returnNumber = returner(userNumber);
       let returnNumber = replacer(ranger(userNumber));
 
-  
       $("#returnNumber").text(returnNumber);
       $("#returnNumber").show();
     })
