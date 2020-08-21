@@ -5,7 +5,10 @@
 
 ## Description
 
+This is similar to the children's game FizzBuzz. For the rules, please see the specs.
+
 ## Specs
+
 * The app takes an input number from a user, returns a list of numbers from 0 to
 the input
   * input: 3
@@ -36,8 +39,6 @@ Open index.html in your browser to view the page
 * HTML
 * CSS
 * JavaScript
-
-## Known Bugs
 
 ## Contact Details
 
