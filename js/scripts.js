@@ -11,7 +11,7 @@
 //   }
 //   return total;
 // }
-
+// ------------------------------------------------------------
 // Tests 
 // User can input a number and see it returned:
 // function returner(userNumber) {
@@ -19,13 +19,14 @@
 // }
 
 // A range up to that number can be returned:
-function returner(userNumber) {
-  let outputArray = [];
-  for (let index = 0; index < userNumber + 1; index += 1) {
-    outputArray.push(index);
-  } 
-  return outputArray;
-}
+// function returner(userNumber) {
+//   let outputArray = [];
+//   for (let index = 0; index < userNumber + 1; index += 1) {
+//     outputArray.push(index);
+//   } 
+//   return outputArray;
+// }
+// -------------------------------------------------------------
 
 // $(document).ready(function() {
 //   $("#number").submit(function(event) {
@@ -40,13 +41,35 @@ function returner(userNumber) {
 //   })
 // });
 
+function ranger(userNumber) {
+  let outputArray = [];
+  for (let index = 0; index < userNumber + 1; index += 1) {
+    outputArray.push(index);
+  } 
+  return outputArray;
+}
+
+function replacer(arrayRange) {
+  let newArray = [];
+  arrayRange.forEach(function(element) {
+    element = element.toString();
+    if (element.includes("3")) {
+      element = "Won't you be my neighbor?"
+    }
+    newArray.push(element);
+  });
+  return newArray;
+}
+
   $(document).ready(function() {
     $("#number").submit(function(event) {
       event.preventDefault();
   
       const userNumber = parseInt($("#inputNum").val());
   
-      let returnNumber = returner(userNumber);
+      // let returnNumber = returner(userNumber);
+      let returnNumber = replacer(ranger(userNumber));
+
   
       $("#returnNumber").text(returnNumber);
       $("#returnNumber").show();
