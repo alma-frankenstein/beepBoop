@@ -73,7 +73,7 @@ function replacer(arrayRange) {
     } else if (element.includes("1")) {
       element = "Beep!";
     }
-    newArray.push(element);
+    newArray.push(" " + element);
   });
   return newArray;
 }
