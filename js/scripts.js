@@ -56,6 +56,10 @@ function replacer(arrayRange) {
   $(document).ready(function() {
     $("#number").submit(function(event) {
       event.preventDefault();
+
+      if ($("#inputNum").val());) == parseInt($("#inputNum").val()) {
+        alert("okay");
+      }
   
       const userNumber = parseInt($("#inputNum").val());
   
