@@ -81,6 +81,9 @@ function replacer(arrayRange) {
   $(document).ready(function() {
     $("#number").submit(function(event) {
       event.preventDefault();
+      if (typeof parseInt($("#inputNum").val()) != "number") {
+        alert("numbers only, please!");
+      }
   
       const userNumber = parseInt($("#inputNum").val());
   
