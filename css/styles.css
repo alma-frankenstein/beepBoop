@@ -28,6 +28,10 @@ h1 {
   color: #00cc00;
 }
 
+h3, p {
+  padding: 14px;
+}
+
 img {
   display: block;
   margin-left: auto;
