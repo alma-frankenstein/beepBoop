@@ -26,6 +26,19 @@
 //   } 
 //   return outputArray;
 // }
+
+// Elements in the array range containing certain values can be replaced with a string:
+// function replacer(arrayRange) {
+//   let newArray = [];
+//   arrayRange.forEach(function(element) {
+//     element = element.toString();
+//     if (element.includes("3")) {
+//       element = "Won't you be my neighbor?"
+//     }
+//     newArray.push(element);
+//   });
+//   return newArray;
+// }
 // -------------------------------------------------------------
 
 // $(document).ready(function() {
@@ -54,7 +67,11 @@ function replacer(arrayRange) {
   arrayRange.forEach(function(element) {
     element = element.toString();
     if (element.includes("3")) {
-      element = "Won't you be my neighbor?"
+      element = "Won't you be my neighbor?";
+    } else if (element.includes("2")) {
+      element = "Boop!";
+    } else if (element.includes("1")) {
+      element = "Beep!";
     }
     newArray.push(element);
   });
