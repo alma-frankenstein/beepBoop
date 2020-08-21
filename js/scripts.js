@@ -14,8 +14,17 @@
 
 // Tests 
 // User can input a number and see it returned:
+// function returner(userNumber) {
+//   return userNumber;
+// }
+
+// A range up to that number can be returned:
 function returner(userNumber) {
-  return userNumber;
+  let outputArray = [];
+  for (let index = 0; index < userNumber + 1; index += 1) {
+    outputArray.push(index);
+  } 
+  return outputArray;
 }
 
 // $(document).ready(function() {
