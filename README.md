@@ -1,7 +1,7 @@
 # Beep Boop!
 
 #### Created by Alma Frankenstein, August 2020
-#### Epicodus Project Week 2
+#### Epicodus Project Week 3
 
 ## Description
 
@@ -27,7 +27,7 @@ the input
 
 Clone this repo using:
 
-```git clone https://github.com/alma-frankenstein/languageSuggester langSuggester```
+```git clone https://github.com/alma-frankenstein/beepBoop.git beepBoop```
 
 Open index.html in your browser to view the page
 
@@ -46,5 +46,6 @@ For questions or to suggestions, please email A.Q.Frankenstein@gmail.com
 ### License
 
 This software is licensed under the MIT license.
+Fonts are licensed under the Apache License, Version 2.0.
 
 Copyright (c) 2020 Alma Frankenstein

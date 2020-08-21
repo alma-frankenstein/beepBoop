@@ -5,3 +5,9 @@
 h1 {
   font-family: 'Roboto Mono', monospace;
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
