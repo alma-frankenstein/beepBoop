@@ -5,6 +5,23 @@
 
 ## Description
 
+## Specs
+* The app takes an input number from a user, returns a list of numbers from 0 to
+the input
+  * input: 3
+  * output: 0, 1, 2, 3
+
+* If the user inputs a number containing the digit 3, that number is replaced in the output with "Won't you be my neighbor?"
+  * input: 33
+  * output: "Won't you be my neighbor?"
+
+* If the user inputs a number containing the digit 2 (but not 3), that number is replaced in the output with "Boop!"
+  * input: 21
+  * output: "Boop!"
+
+* If the user inputs a number containing the digit 1 (but not 2 or 3), that number is replaced in the output with "Beep!"
+  * input: 10
+  * output: "Beep!"
 
 ## Setup
 
