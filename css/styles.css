@@ -33,3 +33,8 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+form {
+  display: inline-block;
+  text-align: center;
+}
