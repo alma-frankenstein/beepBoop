@@ -34,6 +34,8 @@ Clone this repo using:
 
 Open index.html in your browser to view the page
 
+The working version of this site can be viewed on [GitHub Pages](https://alma-frankenstein.github.io/beepBoop/)
+
 ## Technologies Used
 
 * HTML
